@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nurichandra.uascatatan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/notes"
+        android:label="Note"
+        android:roundIcon="@drawable/notes"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name="com.nurichandra.uascatatan.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nurichandra.uascatatan.TentangAplikasi"
+            android:exported="false" />
+        <activity
+            android:name="com.nurichandra.uascatatan.Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.nurichandra.uascatatan.Edit"
+            android:exported="false" />
+        <activity
+            android:name="com.nurichandra.uascatatan.Detail"
+            android:exported="false" />
+        <activity
+            android:name="com.nurichandra.uascatatan.AddNote"
+            android:exported="false" />
+        <activity
+            android:name="com.nurichandra.uascatatan.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.nurichandra.uascatatan.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.nurichandra.uascatatan.MainActivity"
+            android:exported="false"/>
+    </application>
+
+</manifest>
